@@ -31,7 +31,7 @@ do
 #    exit
 #  fi
 #done
-  while [ -z "$userguess" ];
+  while [ -z "userguess" ];s
   do
     read -p "Enter number from 1 to 10: " userguess
   done
@@ -39,17 +39,17 @@ do
   then
     if [ "$userguess" -gt "$secretnumber" ]
     then
-      echo "LOL!!! TOO HIGH!!"
+      echo " TOO HIGH!!"
     elif [ "$userguess" -lt "$secretnumber" ]
     then
-      echo "LOL!!! COMEONNN TOO LOW"
+      echo "ITS TOO LOW"
     else
-      echo "KIDDOOOOO GOTCH IT"
+      echo "GOOD"
       exit
     fi
     if [ $i -eq 4 ]
     then
-      echo "YOU LOST LOLLLLL."
+      echo "Sorry YOU LOST MA."
       exit
     else
       echo "YOU LEFT "$((4-"$i"))" CHANCES."
@@ -58,6 +58,6 @@ do
 
 
  else
-   echo "LETS GO FOR ANOTHER BRO"
+   echo "An another one"
  fi
 done

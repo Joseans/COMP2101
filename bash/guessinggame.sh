@@ -37,15 +37,15 @@ while [ $userguess != $secretnumber ]; do # loop around until they get it right
   then
     if [ "$userguess" -gt "$secretnumber" ]
     then
-      echo "LOL!!! TOO HIGH!!"
+      echo "TOO HIGH!!"
     elif [ "$userguess" -lt "$secretnumber" ]
     then
-      echo "LOL!!! COMEONNN TOO LOW"
+      echo "TOO LOW"
     else
-      echo "KIDDOOOOO GOTCH IT"
+      echo "congratulations"
       exit
     fi
   else
-  echo "LETS GO FOR ANOTHER BRO"
+  echo "GO FOR ANOTHER NUMBER"
   fi
-done 
+done

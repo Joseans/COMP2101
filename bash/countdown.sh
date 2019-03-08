@@ -13,7 +13,7 @@ trap reset 2
 trap foundSecret 3
 function foundSecret {
 
-    echo "You found out secret to getting out of script."
+    echo "You Found the script."
 
       exit
 
@@ -131,4 +131,4 @@ while [ $sleepCount -gt 0 ]; do
     sleep $sleepTime
     sleepCount=$((sleepCount - 1))
 done
-echo "Wait counter expired, exiting peacefully"
+echo "Wait counter expired"

@@ -1,5 +1,4 @@
 
-executable file 37 lines (35 sloc) 2.24 KB
 #!/bin/bash
 # This script demonstrates file testing
 

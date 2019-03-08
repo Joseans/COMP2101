@@ -51,10 +51,10 @@ grep '[[:blank:]]' <<< "$somesillytext"
 # this 'tr' command will remove extra spaces from the text in the somesillytext variable
 # TASK 6: Modify the tr command to turn lower case characters into upper case characters in the text from the somesillytext variable
 echo "========Extra spaces removed========"
-tr -s '' <<< "$somesillytext"
+tr -s '' <<< "text"
 echo "=========================="
 echo "====lowercase to uppercase=="
-tr a-z A-Z <<<"$somesillytext"
+tr a-z A-Z <<<"text"
 echo "============================="
 
 # this pipeline runs ip to show configured ip addresses in brief mode

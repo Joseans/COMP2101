@@ -13,7 +13,7 @@
 # Variables   #
 ##############
 title="Overlord"
-USER="ANSON"
+USER="ANSON JOSE"
 hostname=$(hostname)
 NOW=$(date +"%H-%M-%P")
 day=$(date +"%A")

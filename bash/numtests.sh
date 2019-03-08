@@ -1,5 +1,4 @@
 
-executable file 26 lines (18 sloc) 1.39 KB
 #!/bin/bash
 # this script demonstrates doing numeric tests in bash
 

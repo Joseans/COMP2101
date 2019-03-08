@@ -11,11 +11,18 @@
 
 ###############
 # Variables   #
-##############
+###############
 title="Overlord"
-USER="ANSON"
+myname="ANSON JOSE"
 hostname=$(hostname)
-NOW=$(date +"%H-%M-%P")
+NOW=$(date +"%c")
 day=$(date +"%A")
 
 ###############
+# Main
+###############
+outputt=` cat <<EOF
+Welcome to planet $hostname, "$title $USER!" current time is $NOW on $day
+
+EOF`
+echo "$(cowsay $outputt)"
